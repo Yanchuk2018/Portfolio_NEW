@@ -82,13 +82,13 @@ a{
   line-height: 21px;
   text-transform: uppercase;
   padding: 14px 54px 15px;
-  background-color: #5A0D67;
+  background-color: rgb(188, 39, 173);
   transition: all .5s;
 }
 
 .button:hover{
   color: #5A0D67;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .header__social{
@@ -115,7 +115,7 @@ a{
 }
 
 .title{
-  color: #21062A;
+  color: #386bc4;
   font-size: 36px;
   line-height: 54px;
   font-weight: 400;
@@ -128,7 +128,7 @@ a{
   content: '';
   width: 80px;
   height: 3px;
-  background-color: #21062A;
+  background-color: #386bc4;
   position: absolute;
   top: 20px;
   margin-left: 20px;
@@ -145,7 +145,7 @@ a{
 }
 
 .services__content-title{
-  color: #5A0D67;
+  color: #386bc4;
   font-size: 18px;
   line-height: 27px;
   font-weight: 300;
@@ -211,16 +211,16 @@ a{
 }
 
 .services__item:hover{
-  border: 2px solid #5A0D67;
+  border: 2px solid #386bc4;
   width: 500px;
 }
 
 .services__item:hover .services__item-title{
-  color: #5A0D67;
+  color: #386bc4;
 }
 
 .services__item:hover::before{
-  color: #5A0D67;
+  color: #386bc4;
 }
 
 .services__item-title{
@@ -238,6 +238,8 @@ a{
 
 .benefits__images{
   margin-right: 95px;
+  width: 450px;
+  height: 600px;
 }
 
 .benefits__content{
@@ -251,7 +253,7 @@ a{
 
 .benefits__list{
   list-style: none;
-  background-color: #21062A;
+  background-color: #386bc4;
   padding: 25px 0 25px 185px;
 }
 
@@ -275,7 +277,55 @@ a{
 .benefits__item-text{
   color: #c4c4c4;
 }
+.educational{
+  margin-bottom: 100px;
+}
 
+.educational__inner{
+  display: flex;
+}
+
+.educational__images{
+  margin-right: 95px;
+  width: 450px;
+  height: 600px;
+  float: right;
+}
+.educational__content{
+  width: 100%;
+  color: #fff;
+}
+
+.educational__title{
+  margin-left: 185px;
+}
+
+.educational__list{
+  list-style: none;
+  background-color: #386bc4;
+  padding: 25px 0 25px 185px;
+}
+
+.educational__item{
+  width: 320px;
+  margin-bottom: 20px;
+}
+
+.educational__item-num{
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.educational__item-title{
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+.educational__item-text{
+  color: #c4c4c4;
+}
 .carousel{
   margin-bottom: 100px;
 }
@@ -297,8 +347,8 @@ a{
 
 .carousel__item-box:hover{
   color: #fff;
-  background-color: #5A0D67;
-  border-color: #5A0D67;
+  background-color: rgb(188, 39, 173);
+  border-color: rgb(188, 39, 173);
 }
 
 .carousel__item-img{
@@ -329,41 +379,41 @@ a{
 }
 
 .carousel .slick-active button{
-  background-color: #5A0D67;
+  background-color: rgb(206, 144, 212);
   height: 3px;
 }
 
-.contacts__inner{
+.educational__inner{
   display: flex;
   justify-content: space-between;
 }
 
-.contacts__list{
+.educational__list{
   list-style: none;
 }
 
-.contacts__item{
+.educational__item{
   margin-bottom: 20px;
 }
 
-.contacts__item-title{
-  color: #5A0D67;
+.educational__item-title{
+  color: #386bc4;
 }
 
-.contacts__form{
-  background-color: #21062A;
-  padding: 50px 75px 57px;
-  text-align: center;
+.educational__form{
+  background-color: #386bc4;
+  padding: 75px 75px 57px;
+  text-align: right;
 }
 
-.contacts__title{
+.educational__title{
   color: #fff;
   margin-bottom: 16px;
-  margin-left: 53px;
-  text-align: left;
+  margin-right: 53px;
+  text-align: right;
 }
 
-.contacts__title::after{
+.educational__title::after{
   background-color: #fff;
 }
 
@@ -377,7 +427,7 @@ a{
   display: block;
   font-size: 24px;
   padding: 0 15px;
-  text-align: center;
+  text-align: right;
 }
 
 .contacts__input::placeholder{
@@ -398,7 +448,7 @@ a{
 }
 
 .footer{
-  background-color: #21062A;
+  background-color: #386bc4;
 }
 
 .footer__inner{
