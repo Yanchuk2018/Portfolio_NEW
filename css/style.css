@@ -1,3 +1,4 @@
+
 *,
 *::after,
 *::before{
@@ -283,6 +284,7 @@ a{
 
 .educational__inner{
   display: flex;
+  flex-direction: row;
 }
 
 .educational__images{
@@ -297,13 +299,13 @@ a{
 }
 
 .educational__title{
-  margin-left: 185px;
+  margin-right: 185px;
 }
 
 .educational__list{
   list-style: none;
   background-color: #386bc4;
-  padding: 25px 0 25px 185px;
+  padding: 25px 185px;
 }
 
 .educational__item{
@@ -403,7 +405,7 @@ a{
 .educational__form{
   background-color: #386bc4;
   padding: 75px 75px 57px;
-  text-align: right;
+  text-align: left;
 }
 
 .educational__title{
@@ -457,6 +459,7 @@ a{
   align-items: center;
   color: #fff;
   height: 100px;
+  margin-left: 20px;
 }
 
 
@@ -662,11 +665,3 @@ a{
       line-height: 50px;
   }
 }
-
-
-
-
-
-
-
-
